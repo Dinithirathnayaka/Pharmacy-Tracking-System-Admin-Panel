@@ -1,8 +1,7 @@
 .navbar{
     display: flex;
     padding: 10px;
-    width: 100%;
-
+    flex: 7;
 
     .navbarLeft{
         flex: 1;
