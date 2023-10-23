@@ -8,12 +8,12 @@ export default function UserPatient() {
     return (
       <div className="userpatient">
         <Navbar/>
-        <div className='container1'>
+        
             <Leftbar/>
             <div classname="feedtop">
                 <span> <u>Home</u> / <u>Users</u> / Patient </span>
             </div>
-        </div>
+        
                   
       </div>
       
