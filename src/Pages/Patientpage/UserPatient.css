@@ -1,0 +1,48 @@
+.usrpatient{
+    display:flexbox;
+    width:1920px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+
+.person{
+    display: flexbox;
+    margin-left: 42px;
+    margin-top: 27px;
+}
+
+.person h1{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+}
+
+.person p{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}
+
+
+
+
+
+
+
