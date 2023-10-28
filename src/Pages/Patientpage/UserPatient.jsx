@@ -3,7 +3,7 @@ import './UserPatient.css'
 import Leftbar from '../../components/Leftbar/Leftbar';
 import Navbar from '../../components/Navbar/Navbar';
 import Userfeedtop from './userfeedtop';
-
+import Searchbar from '../../components/Searchbar/Searchbar';
 
 export default function UserPatient() {
     return (
@@ -16,7 +16,12 @@ export default function UserPatient() {
                   <Userfeedtop/>
                   <div className='person'>
                     <h2>Patients</h2>
-                    <p>Here is a list of all patients</p>
+                    <div className='des'>Here is a list of all patients</div>
+                  </div>
+                  <br/>
+                  <div className='searchbar'>
+                    <Searchbar/>
+                    <button>Add patient</button>
                   </div>
                 </div>
             </div>
