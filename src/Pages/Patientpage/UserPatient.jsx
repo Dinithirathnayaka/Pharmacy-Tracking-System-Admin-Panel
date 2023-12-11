@@ -4,6 +4,8 @@ import Leftbar from '../../components/Leftbar/Leftbar';
 import Navbar from '../../components/Navbar/Navbar';
 import Userfeedtop from './userfeedtop';
 import Searchbar from '../../components/Searchbar/Searchbar';
+import { Table } from '@mui/material';
+
 
 export default function UserPatient() {
     return (
@@ -22,6 +24,44 @@ export default function UserPatient() {
                   <div className='searchbar'>
                     <Searchbar/>
                     <button>Add patient</button>
+                  </div>
+                  <div className='patientable'>
+                    <Table className='pati-table'>
+                      <thead>
+                        <tr>
+                          <th> <input type="checkbox"/> </th>
+                          <th>Patients Name</th>
+                          <th>Email Address</th>
+                          <th>Department</th>
+                          <th>Role</th>
+                          <th>Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><input type="checkbox"/></td>
+                          <td>Lindsey Stroud</td>
+                          <td>lindsey.stroud@gmail.com</td>
+                          <td>Technology Department</td>
+                          <td>Head of Technology</td>
+                          <td>
+                            <button><img src="edit.jpg"/></button>
+                            <button><img src="delete.jpg"/></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox"/></td>
+                          <td>Lindsey Stroud</td>
+                          <td>lindsey.stroud@gmail.com</td>
+                          <td>Technology Department</td>
+                          <td>Head of Technology</td>
+                          <td>
+                            <button><img src="edit.jpg"/></button>
+                            <button><img src="delete.jpg"/></button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </Table>
                   </div>
                 </div>
             </div>
