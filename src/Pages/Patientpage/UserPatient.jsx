@@ -44,7 +44,7 @@ export default function UserPatient() {
                           <td>lindsey.stroud@gmail.com</td>
                           <td>Technology Department</td>
                           <td>Head of Technology</td>
-                          <td>
+                          <td className='buttons'>
                             <button><img src="edit.jpg"/></button>
                             <button><img src="delete.jpg"/></button>
                           </td>
@@ -55,7 +55,7 @@ export default function UserPatient() {
                           <td>lindsey.stroud@gmail.com</td>
                           <td>Technology Department</td>
                           <td>Head of Technology</td>
-                          <td>
+                          <td className='buttons'>
                             <button><img src="edit.jpg"/></button>
                             <button><img src="delete.jpg"/></button>
                           </td>
