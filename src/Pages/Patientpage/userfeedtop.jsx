@@ -5,7 +5,9 @@ export default function Userfeedtop(){
     return(
         <div className="userfeedtop">
             <div className="text">
-                <span style={{color: "blue"}}><u>Home</u></span> / <span style={{color: "blue"}}><u>Users</u></span> / Patient
+                <span><a href="#" className="home">Home</a></span> / 
+                <span><a href="#" className="user">Users</a></span> / 
+                <a href="#" className="patient">Patient</a>
             </div>
         </div>
 
