@@ -24,8 +24,8 @@ export default function userdoctor () {
                         <Searchbar/>
                         <button>Add doctor</button>
                     </div>
-                    <div className='patientable'>
-                        <Table className='pati-table'>
+                    <div className='doctortable'>
+                        <Table className='doc-table'>
                         <thead>
                             <tr>
                             <th> <input type="checkbox"/> </th>
