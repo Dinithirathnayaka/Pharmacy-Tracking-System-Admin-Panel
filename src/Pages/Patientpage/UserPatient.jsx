@@ -45,8 +45,8 @@ export default function UserPatient() {
                           <td>Technology Department</td>
                           <td>Head of Technology</td>
                           <td className='buttons'>
-                            <button><img src="edit.jpg"/></button>
-                            <button><img src="delete.jpg"/></button>
+                            <button><img src='./assets/edit.png'/></button>
+                            <button><img src="./assets/bin.png"/></button>
                           </td>
                         </tr>
                         <tr>
@@ -56,8 +56,8 @@ export default function UserPatient() {
                           <td>Technology Department</td>
                           <td>Head of Technology</td>
                           <td className='buttons'>
-                            <button><img src="edit.jpg"/></button>
-                            <button><img src="delete.jpg"/></button>
+                            <button><img src='./assets/edit.png'/></button>
+                            <button><img src="./assets/bin.png"/></button>
                           </td>
                         </tr>
                       </tbody>

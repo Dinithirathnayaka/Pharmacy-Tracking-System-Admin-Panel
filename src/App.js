@@ -1,6 +1,7 @@
 import Dashboard from "./components/Dashboard/Dashboard";
 import Navbar from "./components/Navbar/Navbar";
 import UserPatient from "./Pages/Patientpage/UserPatient";
+import UserDoctor from "./Pages/doctorpage/UserDoctor";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar/>
       <Dashboard/>
       <UserPatient/>
+      <UserDoctor/>
     </div>
   );
 }
