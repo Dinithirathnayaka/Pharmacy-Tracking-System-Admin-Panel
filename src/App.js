@@ -4,6 +4,7 @@ import UserPatient from "./Pages/Patientpage/UserPatient";
 import UserDoctor from "./Pages/doctorpage/UserDoctor";
 import UserPharmacist from "./Pages/pharmacistpage/UserPharmacist";
 import Messages from "./Pages/messagepage/Messages";
+import Notifications from "./Pages/notificationpage/Notifications";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <UserPharmacist/>
       <UserDoctor/>
       <Messages/>
+      <Notifications/>
     </div>
   );
 }
