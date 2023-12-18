@@ -45,7 +45,58 @@ export default function Feed() {
 
 
           <div className="bottomDown">
-          
+            <span>Recent Users</span>
+            <table className="table">
+              <tb>
+                <tr>
+                  <td>
+                    <p className='name'>Wasantha Perera</p>
+                    <p className='position'>Doctor</p>
+                  </td>
+                  <td>11 May 12:56</td>
+                  <td>
+                    <button className="reject">Reject</button>
+                    <button className="approve">Approve</button>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p className='name'>Anura Kumara</p>
+                    <p className='position'>Pharmacist</p>
+                  </td>
+                  <td>15 May 09:06</td>
+                  <td>
+                    <button className="reject">Reject</button>
+                    <button className="approve">Approve</button>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p className='name'>Dinithi Nayanamali</p>
+                    <p className='position'>Pharmacist</p>
+                  </td>
+                  <td>11 May 12:56</td>
+                  <td>
+                    <button className="reject">Reject</button>
+                    <button className="approve">Approve</button>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <p className='name'>Viraj Tharuka</p>
+                    <p className='position'>Doctor</p>
+                  </td>
+                  <td>15 August 10:56</td>
+                  <td>
+                    <button className="reject">Reject</button>
+                    <button className="approve">Approve</button>
+                  </td>
+                </tr>
+              </tb>
+            </table>
           </div>
         </div>
     </div>
